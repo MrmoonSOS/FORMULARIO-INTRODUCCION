@@ -1,0 +1,12 @@
+.submit{
+    background-color: green;
+    border-radius: 5px;
+    color: aliceblue;
+}
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+ }
+.table{
+    text-align: center;
+}

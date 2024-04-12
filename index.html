@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario de registro - Mi web</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form action="simon2006v@gmail.com" method="GET" enctype="text/plain">
+        <div>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" maxlength="50" required>
+        </div>
+        <div>
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="apellidos" maxlength="50" required>
+        </div>
+        <div>
+            <label>Sexo:</label>
+            <input type="radio" id="hombre" name="sexo" value="hombre" required>
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="mujer" name="sexo" value="mujer" required>
+            <label for="mujer">Mujer</label>
+        </div>
+        <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+        </div>
+        <div>
+            <input type="checkbox" id="novedades" name="novedades" checked>
+            <label for="novedades">Deseo recibir información sobre novedades y ofertas</label>
+        </div>
+        <div>
+            <input type="checkbox" id="condiciones" name="condiciones" required>
+            <label for="condiciones">Declaro haber leído y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        </div>
+        <button class="submit" type="submit">Enviar</button>
+    </form>
+    <div>
+        <h2>Tabla de ejemplo</h2>
+        <table class="table" cente border="1">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Apellidos</th>
+                    <th>Sexo</th>
+                    <th>Correo electrónico</th>
+                    <th>Novedades y ofertas</th>
+                    <th>Aceptación de condiciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Juan</td>
+                    <td>Pérez</td>
+                    <td>Hombre</td>
+                    <td>juan@ejemplo.com</td>
+                    <td>si</td>
+                    <td>si</td>
+                </tr>
+                <tr>
+                    <td>María</td>
+                    <td>García</td>
+                    <td>Mujer</td>
+                    <td>maria@ejemplo.com</td>
+                    <td>si</td>
+                    <td>si</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
+</body>
+</html>
